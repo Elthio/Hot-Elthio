@@ -1,0 +1,56 @@
+section {
+ background-color: whitesmoke;
+ height: 400px;
+}
+/* section-header*/
+.section_-header {
+  margin: 0;
+}
+/* image de profile */
+.image {
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+@media (max-width: 600px) {
+  .name,.email {
+     position: absolute;
+     margin-left: 0;
+     margin-top: 95px;
+
+   }
+ }
+
+/* profile-name */
+.name {
+  margin-left: 10%;
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+}
+
+/* email */
+
+.email {
+  position: relative;
+  margin-left: 10%;
+  position: absolute;
+  top: 80px;
+  font-size: 25px;
+}
+
+/* liste */
+
+.about {
+  margin-top: 80px;
+}
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+ul li {
+  margin-top: 20px;
+}
